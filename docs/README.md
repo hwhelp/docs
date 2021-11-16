@@ -6,8 +6,9 @@ using the Discord.js library.
 
 ## Requirements
 
-1. Node >= 8
-2. npm or yarn
+1. Node.js >= 14
+2. Discord.js >= 12
+3. npm or yarn
 
 ## Installing
 
@@ -21,8 +22,11 @@ git clone https://github.com/spjy/hwh-bot.git
 # Change directories into the repo root 
 cd hwh-bot
 
-# Install dependencies 
-npm i
+# Install dependencies via npm
+npm install
+
+# Or install dependecies via yarn
+yarn install
 ```
 
 Finally, set up your environment variables; copy and paste `.env.schema` and
@@ -33,8 +37,11 @@ fill at least `DISCORD_TOKEN`; the others are optional.
 To run the bot, simply type:
 
 ```sh
-# Run the bot
+# Run the bot via npm
 npm start
+
+# Or run the bot via yarn
+yarn start
 ```
 
 ## Directory Structure
